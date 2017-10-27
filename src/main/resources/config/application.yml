@@ -1,0 +1,15 @@
+spring:
+  main:
+    banner-mode: "off"
+  application:
+    name: '@project.name@'
+  datasource:
+    url: jdbc:mysql://localhost:3306/logs?useSSL=false
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+logging:
+  level:
+    root: off;
+    hibernate: off
+  file: /tmp/spring.log

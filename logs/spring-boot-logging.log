@@ -1,0 +1,1136 @@
+2017-10-25 03:31:42.945  INFO 16494 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 16494 (started by kuba in /var/www/log_parser)
+2017-10-25 03:31:42.949  INFO 16494 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 03:31:42.991  INFO 16494 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:31:42 CEST 2017]; root of context hierarchy
+2017-10-25 03:31:44.675  INFO 16494 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:31:44.701  INFO 16494 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:31:44.776  INFO 16494 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:31:44.780  INFO 16494 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:31:44.783  INFO 16494 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:31:44.844  INFO 16494 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:31:44.983  INFO 16494 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:31:45.219  WARN 16494 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:31:45.504  INFO 16494 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:31:46.127  INFO 16494 --- [main] n.j.log_parser.LogParserApplication      : Application started with command-line arguments: []
+2017-10-25 03:31:46.128  INFO 16494 --- [main] n.j.log_parser.LogParserApplication      : NonOptionArgs: []
+2017-10-25 03:31:46.129  INFO 16494 --- [main] n.j.log_parser.LogParserApplication      : OptionNames: []
+2017-10-25 03:31:46.129  INFO 16494 --- [main] n.j.log_parser.LogParserApplication      : Contains person.name: false
+2017-10-25 03:31:46.132  INFO 16494 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.617 seconds (JVM running for 4.504)
+2017-10-25 03:31:46.270  INFO 16494 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:31:42 CEST 2017]; root of context hierarchy
+2017-10-25 03:31:46.275  INFO 16494 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:31:52.469  INFO 16536 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 16536 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:31:52.478  INFO 16536 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:31:52.588  INFO 16536 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:31:52 CEST 2017]; root of context hierarchy
+2017-10-25 03:31:54.735  INFO 16536 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:31:54.763  INFO 16536 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:31:54.917  INFO 16536 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:31:54.919  INFO 16536 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:31:54.921  INFO 16536 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:31:54.978  INFO 16536 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:31:55.281  INFO 16536 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:31:55.624  WARN 16536 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:31:56.049  INFO 16536 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:31:56.812  INFO 16536 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:31:56.838  INFO 16536 --- [main] n.j.log_parser.LogParserApplication      : Application started with command-line arguments: []
+2017-10-25 03:31:56.838  INFO 16536 --- [main] n.j.log_parser.LogParserApplication      : NonOptionArgs: []
+2017-10-25 03:31:56.839  INFO 16536 --- [main] n.j.log_parser.LogParserApplication      : OptionNames: []
+2017-10-25 03:31:56.839  INFO 16536 --- [main] n.j.log_parser.LogParserApplication      : Contains person.name: false
+2017-10-25 03:31:56.841  INFO 16536 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.023 seconds (JVM running for 5.607)
+2017-10-25 03:31:56.842  INFO 16536 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:31:52 CEST 2017]; root of context hierarchy
+2017-10-25 03:31:56.844  INFO 16536 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:31:56.846  INFO 16536 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:33:28.544  INFO 16643 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication on ProBook with PID 16643 (/var/www/log_parser/target/classes started by kuba in /var/www/log_parser)
+2017-10-25 03:33:28.551  INFO 16643 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:33:28.630  INFO 16643 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@32072eb4: startup date [Wed Oct 25 03:33:28 CEST 2017]; root of context hierarchy
+2017-10-25 03:33:30.377  INFO 16643 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:33:30.408  INFO 16643 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:33:30.493  INFO 16643 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:33:30.495  INFO 16643 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:33:30.498  INFO 16643 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:33:30.557  INFO 16643 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:33:30.678  INFO 16643 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:33:30.862  WARN 16643 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:33:31.113  INFO 16643 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:33:31.753  INFO 16643 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:33:31.774  INFO 16643 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 3.805 seconds (JVM running for 9.056)
+2017-10-25 03:33:32.008  INFO 16643 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@32072eb4: startup date [Wed Oct 25 03:33:28 CEST 2017]; root of context hierarchy
+2017-10-25 03:33:32.011  INFO 16643 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:33:32.012  INFO 16643 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:33:58.970  INFO 16770 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 16770 (started by kuba in /var/www/log_parser)
+2017-10-25 03:33:58.975  INFO 16770 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 03:33:59.016  INFO 16770 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:33:59 CEST 2017]; root of context hierarchy
+2017-10-25 03:34:00.550  INFO 16770 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:34:00.579  INFO 16770 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:34:00.652  INFO 16770 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:34:00.654  INFO 16770 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:34:00.657  INFO 16770 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:34:00.723  INFO 16770 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:34:00.863  INFO 16770 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:34:01.103  WARN 16770 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:34:01.487  INFO 16770 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:34:02.069  INFO 16770 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.554 seconds (JVM running for 4.411)
+2017-10-25 03:34:02.155  INFO 16770 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:33:59 CEST 2017]; root of context hierarchy
+2017-10-25 03:34:02.167  INFO 16770 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:34:08.840  INFO 16813 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 16813 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:34:08.849  INFO 16813 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:34:08.984  INFO 16813 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:34:08 CEST 2017]; root of context hierarchy
+2017-10-25 03:34:11.024  INFO 16813 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:34:11.051  INFO 16813 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:34:11.239  INFO 16813 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:34:11.242  INFO 16813 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:34:11.245  INFO 16813 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:34:11.312  INFO 16813 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:34:11.626  INFO 16813 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:34:11.984  WARN 16813 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:34:12.426  INFO 16813 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:34:13.101  INFO 16813 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:34:13.123  INFO 16813 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.024 seconds (JVM running for 5.651)
+2017-10-25 03:34:13.124  INFO 16813 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:34:08 CEST 2017]; root of context hierarchy
+2017-10-25 03:34:13.127  INFO 16813 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:34:13.131  INFO 16813 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:34:43.447  INFO 16848 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 16848 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:34:43.454  INFO 16848 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:34:43.555  INFO 16848 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:34:43 CEST 2017]; root of context hierarchy
+2017-10-25 03:34:45.514  INFO 16848 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:34:45.542  INFO 16848 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:34:45.726  INFO 16848 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:34:45.728  INFO 16848 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:34:45.731  INFO 16848 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:34:45.814  INFO 16848 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:34:46.106  INFO 16848 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:34:46.447  WARN 16848 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:34:46.826  INFO 16848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:34:47.433  INFO 16848 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:34:47.456  INFO 16848 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 4.731 seconds (JVM running for 5.366)
+2017-10-25 03:34:47.465  INFO 16848 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:34:43 CEST 2017]; root of context hierarchy
+2017-10-25 03:34:47.467  INFO 16848 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:34:47.474  INFO 16848 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:41:26.034  INFO 17365 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 17365 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:41:26.043  INFO 17365 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:41:26.141  INFO 17365 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:41:26 CEST 2017]; root of context hierarchy
+2017-10-25 03:41:28.139  INFO 17365 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:41:28.161  INFO 17365 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:41:28.334  INFO 17365 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:41:28.336  INFO 17365 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:41:28.338  INFO 17365 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:41:28.402  INFO 17365 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:41:28.694  INFO 17365 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:41:29.022  WARN 17365 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:41:29.394  INFO 17365 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:41:30.003  INFO 17365 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:41:30.028  INFO 17365 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 4.785 seconds (JVM running for 5.451)
+2017-10-25 03:41:30.040  INFO 17365 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:41:26 CEST 2017]; root of context hierarchy
+2017-10-25 03:41:30.043  INFO 17365 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:41:30.048  INFO 17365 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:41:39.647  INFO 17436 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 17436 (started by kuba in /var/www/log_parser)
+2017-10-25 03:41:39.651  INFO 17436 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 03:41:39.730  INFO 17436 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:41:39 CEST 2017]; root of context hierarchy
+2017-10-25 03:41:41.708  INFO 17436 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:41:41.735  INFO 17436 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:41:41.838  INFO 17436 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:41:41.846  INFO 17436 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:41:41.849  INFO 17436 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:41:41.911  INFO 17436 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:41:42.033  INFO 17436 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:41:42.276  WARN 17436 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:41:42.539  INFO 17436 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:41:43.091  INFO 17436 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.974 seconds (JVM running for 4.846)
+2017-10-25 03:41:43.154  INFO 17436 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:41:39 CEST 2017]; root of context hierarchy
+2017-10-25 03:41:43.159  INFO 17436 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:43:42.452  INFO 17715 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 17715 (started by kuba in /var/www/log_parser)
+2017-10-25 03:43:42.456  INFO 17715 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 03:43:42.487  INFO 17715 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:43:42 CEST 2017]; root of context hierarchy
+2017-10-25 03:43:44.066  INFO 17715 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:43:44.086  INFO 17715 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:43:44.174  INFO 17715 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:43:44.176  INFO 17715 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:43:44.179  INFO 17715 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:43:44.247  INFO 17715 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:43:44.411  INFO 17715 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:43:44.676  WARN 17715 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:43:45.028  INFO 17715 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:43:45.616  INFO 17715 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.585 seconds (JVM running for 4.529)
+2017-10-25 03:43:45.690  INFO 17715 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:43:42 CEST 2017]; root of context hierarchy
+2017-10-25 03:43:45.694  INFO 17715 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:43:51.965  INFO 17755 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 17755 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:43:51.973  INFO 17755 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:43:52.098  INFO 17755 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:43:52 CEST 2017]; root of context hierarchy
+2017-10-25 03:43:54.121  INFO 17755 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:43:54.145  INFO 17755 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:43:54.330  INFO 17755 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:43:54.333  INFO 17755 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:43:54.335  INFO 17755 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:43:54.398  INFO 17755 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:43:54.676  INFO 17755 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:43:55.038  WARN 17755 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:43:55.459  INFO 17755 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:43:56.235  INFO 17755 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:43:56.263  INFO 17755 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.076 seconds (JVM running for 5.739)
+2017-10-25 03:43:56.264  INFO 17755 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:43:52 CEST 2017]; root of context hierarchy
+2017-10-25 03:43:56.267  INFO 17755 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:43:56.270  INFO 17755 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:44:01.408  INFO 17918 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 17918 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:44:01.418  INFO 17918 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:44:01.516  INFO 17918 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:44:01 CEST 2017]; root of context hierarchy
+2017-10-25 03:44:03.663  INFO 17918 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:44:03.710  INFO 17918 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:44:03.865  INFO 17918 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:44:03.867  INFO 17918 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:44:03.869  INFO 17918 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:44:03.931  INFO 17918 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:44:04.244  INFO 17918 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:44:04.670  WARN 17918 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:44:05.112  INFO 17918 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:44:05.821  INFO 17918 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:44:05.852  INFO 17918 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.168 seconds (JVM running for 5.814)
+2017-10-25 03:44:05.853  INFO 17918 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:44:01 CEST 2017]; root of context hierarchy
+2017-10-25 03:44:05.857  INFO 17918 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:44:05.858  INFO 17918 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:44:26.299  INFO 17994 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 17994 (started by kuba in /var/www/log_parser)
+2017-10-25 03:44:26.302  INFO 17994 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 03:44:26.350  INFO 17994 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:44:26 CEST 2017]; root of context hierarchy
+2017-10-25 03:44:28.059  INFO 17994 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:44:28.083  INFO 17994 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:44:28.169  INFO 17994 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:44:28.171  INFO 17994 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:44:28.176  INFO 17994 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:44:28.248  INFO 17994 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:44:28.378  INFO 17994 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:44:28.617  WARN 17994 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:44:29.100  INFO 17994 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:44:29.689  INFO 17994 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.957 seconds (JVM running for 4.857)
+2017-10-25 03:44:29.753  INFO 17994 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:44:26 CEST 2017]; root of context hierarchy
+2017-10-25 03:44:29.757  INFO 17994 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:44:43.181  INFO 18035 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 18035 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:44:43.190  INFO 18035 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:44:43.275  INFO 18035 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:44:43 CEST 2017]; root of context hierarchy
+2017-10-25 03:44:45.227  INFO 18035 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:44:45.253  INFO 18035 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:44:45.521  INFO 18035 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:44:45.524  INFO 18035 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:44:45.527  INFO 18035 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:44:45.588  INFO 18035 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:44:45.886  INFO 18035 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:44:46.301  WARN 18035 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:44:46.664  INFO 18035 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:44:47.404  INFO 18035 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:44:47.428  INFO 18035 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.113 seconds (JVM running for 5.753)
+2017-10-25 03:44:47.429  INFO 18035 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9e1916: startup date [Wed Oct 25 03:44:43 CEST 2017]; root of context hierarchy
+2017-10-25 03:44:47.433  INFO 18035 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:44:47.437  INFO 18035 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:48:09.039  INFO 18284 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 18284 (started by kuba in /var/www/log_parser)
+2017-10-25 03:48:09.043  INFO 18284 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 03:48:09.086  INFO 18284 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:48:09 CEST 2017]; root of context hierarchy
+2017-10-25 03:48:10.893  INFO 18284 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:48:10.915  INFO 18284 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:48:11.000  INFO 18284 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:48:11.002  INFO 18284 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:48:11.005  INFO 18284 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:48:11.075  INFO 18284 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:48:11.233  INFO 18284 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:48:11.470  WARN 18284 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:48:11.833  INFO 18284 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:48:12.498  INFO 18284 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.961 seconds (JVM running for 5.374)
+2017-10-25 03:48:12.555  INFO 18284 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d4d66d2: startup date [Wed Oct 25 03:48:09 CEST 2017]; root of context hierarchy
+2017-10-25 03:48:12.560  INFO 18284 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:52:51.827  INFO 18700 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 18700 (started by kuba in /var/www/log_parser)
+2017-10-25 03:52:51.831  INFO 18700 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 03:52:51.867  INFO 18700 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5965d37: startup date [Wed Oct 25 03:52:51 CEST 2017]; root of context hierarchy
+2017-10-25 03:52:53.651  INFO 18700 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:52:53.683  INFO 18700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:52:53.797  INFO 18700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:52:53.800  INFO 18700 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:52:53.802  INFO 18700 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:52:53.861  INFO 18700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:52:54.003  INFO 18700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:52:54.269  WARN 18700 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:52:54.616  INFO 18700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:52:55.107  INFO 18700 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 4.031 seconds (JVM running for 5.434)
+2017-10-25 03:52:55.176  INFO 18700 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5965d37: startup date [Wed Oct 25 03:52:51 CEST 2017]; root of context hierarchy
+2017-10-25 03:52:55.183  INFO 18700 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:53:06.458  INFO 18739 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication on ProBook with PID 18739 (/var/www/log_parser/target/classes started by kuba in /var/www/log_parser)
+2017-10-25 03:53:06.472  INFO 18739 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:53:06.564  INFO 18739 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4dd70b5f: startup date [Wed Oct 25 03:53:06 CEST 2017]; root of context hierarchy
+2017-10-25 03:53:08.266  INFO 18739 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:53:08.290  INFO 18739 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:53:08.523  INFO 18739 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:53:08.524  INFO 18739 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:53:08.527  INFO 18739 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:53:08.586  INFO 18739 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:53:08.699  INFO 18739 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:53:08.931  WARN 18739 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:53:09.243  INFO 18739 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:53:09.966  INFO 18739 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:53:09.988  INFO 18739 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 4.3 seconds (JVM running for 8.241)
+2017-10-25 03:53:10.279  INFO 18739 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4dd70b5f: startup date [Wed Oct 25 03:53:06 CEST 2017]; root of context hierarchy
+2017-10-25 03:53:10.283  INFO 18739 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:53:10.287  INFO 18739 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:53:19.714  INFO 18825 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 18825 (started by kuba in /var/www/log_parser)
+2017-10-25 03:53:19.718  INFO 18825 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 03:53:19.755  INFO 18825 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5965d37: startup date [Wed Oct 25 03:53:19 CEST 2017]; root of context hierarchy
+2017-10-25 03:53:21.511  INFO 18825 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:53:21.547  INFO 18825 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:53:21.647  INFO 18825 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:53:21.650  INFO 18825 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:53:21.652  INFO 18825 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:53:21.709  INFO 18825 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:53:21.826  INFO 18825 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:53:22.160  WARN 18825 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:53:22.600  INFO 18825 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:53:23.155  INFO 18825 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 4.251 seconds (JVM running for 5.502)
+2017-10-25 03:53:23.221  INFO 18825 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5965d37: startup date [Wed Oct 25 03:53:19 CEST 2017]; root of context hierarchy
+2017-10-25 03:53:23.234  INFO 18825 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:05.719  INFO 18878 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 18878 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:54:05.724  INFO 18878 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:54:05.810  INFO 18878 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6996db8: startup date [Wed Oct 25 03:54:05 CEST 2017]; root of context hierarchy
+2017-10-25 03:54:07.872  INFO 18878 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:07.903  INFO 18878 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:54:07.998  INFO 18878 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:54:08.000  INFO 18878 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:54:08.002  INFO 18878 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:54:08.075  INFO 18878 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:54:08.375  INFO 18878 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:54:08.756  WARN 18878 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:54:09.176  INFO 18878 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:10.040  INFO 18878 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:54:10.071  INFO 18878 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.37 seconds (JVM running for 6.043)
+2017-10-25 03:54:10.083  INFO 18878 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6996db8: startup date [Wed Oct 25 03:54:05 CEST 2017]; root of context hierarchy
+2017-10-25 03:54:10.086  INFO 18878 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:54:10.087  INFO 18878 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:17.985  INFO 18948 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 18948 (started by kuba in /var/www/log_parser)
+2017-10-25 03:54:17.986  INFO 18948 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 03:54:18.030  INFO 18948 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 03:54:18 CEST 2017]; root of context hierarchy
+2017-10-25 03:54:19.904  INFO 18948 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:19.928  INFO 18948 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:54:20.024  INFO 18948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:54:20.026  INFO 18948 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:54:20.028  INFO 18948 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:54:20.084  INFO 18948 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:54:20.212  INFO 18948 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:54:20.474  WARN 18948 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:54:20.780  INFO 18948 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:21.403  INFO 18948 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 4.034 seconds (JVM running for 5.329)
+2017-10-25 03:54:21.467  INFO 18948 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 03:54:18 CEST 2017]; root of context hierarchy
+2017-10-25 03:54:21.470  INFO 18948 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:29.513  INFO 18988 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 18988 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:54:29.518  INFO 18988 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:54:29.652  INFO 18988 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 03:54:29 CEST 2017]; root of context hierarchy
+2017-10-25 03:54:31.780  INFO 18988 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:31.804  INFO 18988 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:54:31.906  INFO 18988 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:54:31.909  INFO 18988 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:54:31.912  INFO 18988 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:54:31.987  INFO 18988 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:54:32.367  INFO 18988 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:54:32.731  WARN 18988 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:54:33.107  INFO 18988 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:33.922  INFO 18988 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:54:33.946  INFO 18988 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.488 seconds (JVM running for 6.179)
+2017-10-25 03:54:33.947  INFO 18988 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 03:54:29 CEST 2017]; root of context hierarchy
+2017-10-25 03:54:33.949  INFO 18988 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:54:33.950  INFO 18988 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:40.165  INFO 19027 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 19027 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:54:40.178  INFO 19027 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:54:40.297  INFO 19027 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 03:54:40 CEST 2017]; root of context hierarchy
+2017-10-25 03:54:42.734  INFO 19027 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:42.757  INFO 19027 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:54:42.869  INFO 19027 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:54:42.870  INFO 19027 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:54:42.872  INFO 19027 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:54:42.942  INFO 19027 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:54:43.276  INFO 19027 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:54:43.664  WARN 19027 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:54:44.061  INFO 19027 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:54:44.906  INFO 19027 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:54:44.928  INFO 19027 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.733 seconds (JVM running for 6.422)
+2017-10-25 03:54:44.929  INFO 19027 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 03:54:40 CEST 2017]; root of context hierarchy
+2017-10-25 03:54:44.931  INFO 19027 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:54:44.933  INFO 19027 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:56:41.048  INFO 19303 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 19303 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:56:41.053  INFO 19303 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:56:41.150  INFO 19303 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 03:56:41 CEST 2017]; root of context hierarchy
+2017-10-25 03:56:43.251  INFO 19303 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:56:43.289  INFO 19303 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:56:43.387  INFO 19303 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:56:43.389  INFO 19303 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:56:43.391  INFO 19303 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:56:43.456  INFO 19303 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:56:43.752  INFO 19303 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:56:44.164  WARN 19303 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:56:44.600  INFO 19303 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:56:45.330  INFO 19303 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:56:45.353  INFO 19303 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.245 seconds (JVM running for 5.893)
+2017-10-25 03:56:45.355  INFO 19303 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 03:56:41 CEST 2017]; root of context hierarchy
+2017-10-25 03:56:45.357  INFO 19303 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:56:45.357  INFO 19303 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:56:59.772  INFO 19351 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 19351 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 03:56:59.783  INFO 19351 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 03:56:59.912  INFO 19351 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 03:56:59 CEST 2017]; root of context hierarchy
+2017-10-25 03:57:02.089  INFO 19351 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:57:02.114  INFO 19351 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 03:57:02.213  INFO 19351 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 03:57:02.215  INFO 19351 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 03:57:02.216  INFO 19351 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 03:57:02.273  INFO 19351 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 03:57:02.689  INFO 19351 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 03:57:03.086  WARN 19351 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 03:57:03.536  INFO 19351 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 03:57:04.319  INFO 19351 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 03:57:04.340  INFO 19351 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.616 seconds (JVM running for 6.311)
+2017-10-25 03:57:04.344  INFO 19351 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 03:56:59 CEST 2017]; root of context hierarchy
+2017-10-25 03:57:04.346  INFO 19351 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 03:57:04.352  INFO 19351 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:02:42.392  INFO 19666 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 19666 (started by kuba in /var/www/log_parser)
+2017-10-25 04:02:42.393  INFO 19666 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 04:02:42.427  INFO 19666 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 04:02:42 CEST 2017]; root of context hierarchy
+2017-10-25 04:02:44.102  INFO 19666 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:02:44.131  INFO 19666 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:02:44.230  INFO 19666 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:02:44.232  INFO 19666 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:02:44.234  INFO 19666 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:02:44.299  INFO 19666 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:02:44.469  INFO 19666 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:02:44.729  WARN 19666 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:02:45.076  INFO 19666 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:02:45.704  INFO 19666 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.883 seconds (JVM running for 4.876)
+2017-10-25 04:02:45.766  INFO 19666 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 04:02:42 CEST 2017]; root of context hierarchy
+2017-10-25 04:02:45.769  INFO 19666 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:02:54.080  INFO 19707 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 19707 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:02:54.084  INFO 19707 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:02:54.197  INFO 19707 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:02:54 CEST 2017]; root of context hierarchy
+2017-10-25 04:02:56.326  INFO 19707 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:02:56.350  INFO 19707 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:02:56.450  INFO 19707 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:02:56.452  INFO 19707 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:02:56.453  INFO 19707 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:02:56.520  INFO 19707 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:02:56.790  INFO 19707 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:02:57.154  WARN 19707 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:02:57.570  INFO 19707 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:02:58.400  INFO 19707 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:02:58.435  INFO 19707 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.308 seconds (JVM running for 6.047)
+2017-10-25 04:02:58.436  INFO 19707 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:02:54 CEST 2017]; root of context hierarchy
+2017-10-25 04:02:58.438  INFO 19707 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:02:58.441  INFO 19707 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:04:31.395  INFO 19855 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 19855 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:04:31.402  INFO 19855 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:04:31.535  INFO 19855 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:04:31 CEST 2017]; root of context hierarchy
+2017-10-25 04:04:33.845  INFO 19855 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:04:33.868  INFO 19855 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:04:33.980  INFO 19855 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:04:33.982  INFO 19855 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:04:33.984  INFO 19855 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:04:34.052  INFO 19855 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:04:34.358  INFO 19855 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:04:34.688  WARN 19855 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:04:35.097  INFO 19855 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:04:35.817  INFO 19855 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:04:35.838  INFO 19855 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.295 seconds (JVM running for 6.01)
+2017-10-25 04:04:35.839  INFO 19855 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:04:31 CEST 2017]; root of context hierarchy
+2017-10-25 04:04:35.841  INFO 19855 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:04:35.842  INFO 19855 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:05:38.618  INFO 20053 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication on ProBook with PID 20053 (/var/www/log_parser/target/classes started by kuba in /var/www/log_parser)
+2017-10-25 04:05:38.622  INFO 20053 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:05:38.700  INFO 20053 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@174c2519: startup date [Wed Oct 25 04:05:38 CEST 2017]; root of context hierarchy
+2017-10-25 04:05:40.506  INFO 20053 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:05:40.537  INFO 20053 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:05:40.641  INFO 20053 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:05:40.642  INFO 20053 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:05:40.645  INFO 20053 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:05:40.707  INFO 20053 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:05:40.835  INFO 20053 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:05:41.073  WARN 20053 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:05:41.420  INFO 20053 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:05:42.098  INFO 20053 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:05:42.120  INFO 20053 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 4.072 seconds (JVM running for 9.441)
+2017-10-25 04:05:42.368  INFO 20053 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@174c2519: startup date [Wed Oct 25 04:05:38 CEST 2017]; root of context hierarchy
+2017-10-25 04:05:42.370  INFO 20053 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:05:42.371  INFO 20053 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:06:14.827  INFO 20232 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 20232 (started by kuba in /var/www/log_parser)
+2017-10-25 04:06:14.829  INFO 20232 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 04:06:14.867  INFO 20232 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 04:06:14 CEST 2017]; root of context hierarchy
+2017-10-25 04:06:16.607  INFO 20232 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:06:16.636  INFO 20232 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:06:16.731  INFO 20232 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:06:16.733  INFO 20232 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:06:16.735  INFO 20232 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:06:16.796  INFO 20232 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:06:16.909  INFO 20232 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:06:17.150  WARN 20232 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:06:17.417  INFO 20232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:06:17.966  INFO 20232 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.639 seconds (JVM running for 4.578)
+2017-10-25 04:06:18.013  INFO 20232 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 04:06:14 CEST 2017]; root of context hierarchy
+2017-10-25 04:06:18.019  INFO 20232 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:06:33.081  INFO 20296 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 20296 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:06:33.086  INFO 20296 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:06:33.210  INFO 20296 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:06:33 CEST 2017]; root of context hierarchy
+2017-10-25 04:06:35.444  INFO 20296 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:06:35.466  INFO 20296 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:06:35.573  INFO 20296 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:06:35.575  INFO 20296 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:06:35.578  INFO 20296 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:06:35.649  INFO 20296 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:06:35.948  INFO 20296 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:06:36.326  WARN 20296 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:06:36.638  INFO 20296 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:06:37.254  INFO 20296 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:06:37.274  INFO 20296 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 4.968 seconds (JVM running for 5.603)
+2017-10-25 04:06:37.275  INFO 20296 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:06:33 CEST 2017]; root of context hierarchy
+2017-10-25 04:06:37.277  INFO 20296 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:06:37.278  INFO 20296 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:06:45.268  INFO 20333 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 20333 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:06:45.274  INFO 20333 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:06:45.376  INFO 20333 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:06:45 CEST 2017]; root of context hierarchy
+2017-10-25 04:06:47.421  INFO 20333 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:06:47.442  INFO 20333 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:06:47.529  INFO 20333 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:06:47.531  INFO 20333 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:06:47.533  INFO 20333 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:06:47.590  INFO 20333 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:06:47.920  INFO 20333 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:06:48.226  WARN 20333 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:06:48.648  INFO 20333 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:06:49.314  INFO 20333 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:06:49.333  INFO 20333 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.042 seconds (JVM running for 5.698)
+2017-10-25 04:06:49.334  INFO 20333 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:06:45 CEST 2017]; root of context hierarchy
+2017-10-25 04:06:49.335  INFO 20333 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:06:49.336  INFO 20333 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:06:59.106  INFO 20367 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 20367 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:06:59.112  INFO 20367 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:06:59.227  INFO 20367 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:06:59 CEST 2017]; root of context hierarchy
+2017-10-25 04:07:01.366  INFO 20367 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:07:01.396  INFO 20367 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:07:01.488  INFO 20367 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:07:01.490  INFO 20367 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:07:01.491  INFO 20367 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:07:01.555  INFO 20367 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:07:01.888  INFO 20367 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:07:02.252  WARN 20367 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:07:02.656  INFO 20367 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:07:03.303  INFO 20367 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:07:03.326  INFO 20367 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.025 seconds (JVM running for 5.695)
+2017-10-25 04:07:03.327  INFO 20367 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:06:59 CEST 2017]; root of context hierarchy
+2017-10-25 04:07:03.329  INFO 20367 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:07:03.331  INFO 20367 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:08:20.741  INFO 20474 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 20474 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:08:20.747  INFO 20474 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:08:20.856  INFO 20474 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:08:20 CEST 2017]; root of context hierarchy
+2017-10-25 04:08:23.114  INFO 20474 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:08:23.143  INFO 20474 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:08:23.238  INFO 20474 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:08:23.240  INFO 20474 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:08:23.243  INFO 20474 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:08:23.312  INFO 20474 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:08:23.602  INFO 20474 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:08:23.920  WARN 20474 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:08:24.323  INFO 20474 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:08:25.063  INFO 20474 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:08:25.086  INFO 20474 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.223 seconds (JVM running for 5.852)
+2017-10-25 04:08:25.087  INFO 20474 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:08:20 CEST 2017]; root of context hierarchy
+2017-10-25 04:08:25.088  INFO 20474 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:08:25.095  INFO 20474 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:08:31.992  INFO 20573 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 20573 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:08:31.998  INFO 20573 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:08:32.089  INFO 20573 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:08:32 CEST 2017]; root of context hierarchy
+2017-10-25 04:08:34.413  INFO 20573 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:08:34.449  INFO 20573 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:08:34.579  INFO 20573 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:08:34.580  INFO 20573 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:08:34.581  INFO 20573 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:08:34.632  INFO 20573 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:08:34.957  INFO 20573 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:08:35.383  WARN 20573 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:08:35.735  INFO 20573 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:08:36.424  INFO 20573 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:08:36.447  INFO 20573 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.347 seconds (JVM running for 6.029)
+2017-10-25 04:08:36.448  INFO 20573 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:08:32 CEST 2017]; root of context hierarchy
+2017-10-25 04:08:36.451  INFO 20573 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:08:36.453  INFO 20573 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:08:55.372  INFO 20631 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 20631 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:08:55.377  INFO 20631 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:08:55.463  INFO 20631 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:08:55 CEST 2017]; root of context hierarchy
+2017-10-25 04:08:57.534  INFO 20631 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:08:57.557  INFO 20631 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:08:57.649  INFO 20631 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:08:57.650  INFO 20631 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:08:57.652  INFO 20631 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:08:57.715  INFO 20631 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:08:57.992  INFO 20631 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:08:58.431  WARN 20631 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:08:58.858  INFO 20631 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:08:59.715  INFO 20631 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:08:59.738  INFO 20631 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 5.257 seconds (JVM running for 5.895)
+2017-10-25 04:08:59.739  INFO 20631 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:08:55 CEST 2017]; root of context hierarchy
+2017-10-25 04:08:59.741  INFO 20631 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:08:59.742  INFO 20631 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:09:15.245  INFO 20733 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 20733 (started by kuba in /var/www/log_parser)
+2017-10-25 04:09:15.246  INFO 20733 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 04:09:15.280  INFO 20733 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 04:09:15 CEST 2017]; root of context hierarchy
+2017-10-25 04:09:17.024  INFO 20733 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:09:17.053  INFO 20733 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:09:17.147  INFO 20733 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:09:17.148  INFO 20733 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:09:17.150  INFO 20733 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:09:17.208  INFO 20733 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:09:17.322  INFO 20733 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:09:17.583  WARN 20733 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:09:17.904  INFO 20733 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:09:18.461  INFO 20733 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.72 seconds (JVM running for 4.585)
+2017-10-25 04:09:18.509  INFO 20733 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 04:09:15 CEST 2017]; root of context hierarchy
+2017-10-25 04:09:18.518  INFO 20733 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:09:25.282  INFO 20774 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 20774 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:09:25.286  INFO 20774 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:09:25.381  INFO 20774 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:09:25 CEST 2017]; root of context hierarchy
+2017-10-25 04:09:27.469  INFO 20774 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:09:27.494  INFO 20774 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:09:27.593  INFO 20774 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:09:27.595  INFO 20774 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:09:27.597  INFO 20774 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:09:27.660  INFO 20774 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:09:27.990  INFO 20774 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:09:28.323  WARN 20774 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:09:28.702  INFO 20774 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:09:29.375  INFO 20774 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:09:29.397  INFO 20774 --- [main] n.j.log_parser.LogParserApplication      : Started LogParserApplication in 4.965 seconds (JVM running for 5.604)
+2017-10-25 04:09:29.404  INFO 20774 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:09:25 CEST 2017]; root of context hierarchy
+2017-10-25 04:09:29.406  INFO 20774 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:09:29.408  INFO 20774 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:10:45.989  INFO 20892 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 20892 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:10:45.994  INFO 20892 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:10:46.118  INFO 20892 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@368102c8: startup date [Wed Oct 25 04:10:46 CEST 2017]; root of context hierarchy
+2017-10-25 04:10:48.217  INFO 20892 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:10:48.241  INFO 20892 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:10:48.363  INFO 20892 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:10:48.365  INFO 20892 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:10:48.368  INFO 20892 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:10:48.430  INFO 20892 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:10:48.736  INFO 20892 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:10:49.135  WARN 20892 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:10:49.582  INFO 20892 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:10:50.291  INFO 20892 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:10:50.834  WARN 20892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2017-10-25 04:10:50.835 ERROR 20892 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'logs.log' doesn't exist
+2017-10-25 04:10:50.848  INFO 20892 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-25 04:10:50.856 ERROR 20892 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:726)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:713)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at net.jakubpas.log_parser.LogParserApplication.main(LogParserApplication.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:261)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:488)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy59.save(Unknown Source)
+	at saveLogs(LogService.java:30)
+	at net.jakubpas.log_parser.LogParserApplication.run(LogParserApplication.java:24)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:723)
+	... 14 common frames omitted
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:207)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2855)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3426)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:619)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:273)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:254)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:299)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:272)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:178)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:109)
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:67)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:189)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:132)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:58)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:775)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:748)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:753)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:298)
+	at com.sun.proxy.$Proxy56.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:508)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:542)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:504)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:489)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 26 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'logs.log' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5104)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy64.executeUpdate(Unknown Source)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204)
+	... 70 common frames omitted
+
+2017-10-25 04:10:50.858  INFO 20892 --- [main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@368102c8: startup date [Wed Oct 25 04:10:46 CEST 2017]; root of context hierarchy
+2017-10-25 04:10:50.860  INFO 20892 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:10:50.861  INFO 20892 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:12:46.438  INFO 21075 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 21075 (started by kuba in /var/www/log_parser)
+2017-10-25 04:12:46.440  INFO 21075 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 04:12:46.485  INFO 21075 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 04:12:46 CEST 2017]; root of context hierarchy
+2017-10-25 04:12:48.075  INFO 21075 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:12:48.103  INFO 21075 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:12:48.199  INFO 21075 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:12:48.201  INFO 21075 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:12:48.203  INFO 21075 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:12:48.263  INFO 21075 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:12:48.408  INFO 21075 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:12:48.688  WARN 21075 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:12:48.978  INFO 21075 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:12:49.506  INFO 21075 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.581 seconds (JVM running for 4.564)
+2017-10-25 04:12:49.587  INFO 21075 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 04:12:46 CEST 2017]; root of context hierarchy
+2017-10-25 04:12:49.591  INFO 21075 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:13:09.897  INFO 21119 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 21119 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:13:09.901  INFO 21119 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:13:09.992  INFO 21119 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:13:09 CEST 2017]; root of context hierarchy
+2017-10-25 04:13:12.530  INFO 21119 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:13:12.569  INFO 21119 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:13:12.698  INFO 21119 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:13:12.700  INFO 21119 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:13:12.702  INFO 21119 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:13:12.804  INFO 21119 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:13:13.224  INFO 21119 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:13:13.710  WARN 21119 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:13:14.345  INFO 21119 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:13:15.134  INFO 21119 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:13:15.732  WARN 21119 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2017-10-25 04:13:15.732 ERROR 21119 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'logs.log' doesn't exist
+2017-10-25 04:13:15.742  INFO 21119 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-25 04:13:15.748 ERROR 21119 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:726)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:713)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at net.jakubpas.log_parser.LogParserApplication.main(LogParserApplication.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:261)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:488)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy59.save(Unknown Source)
+	at saveLogs(LogService.java:30)
+	at net.jakubpas.log_parser.LogParserApplication.run(LogParserApplication.java:22)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:723)
+	... 14 common frames omitted
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:207)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2855)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3426)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:619)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:273)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:254)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:299)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:272)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:178)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:109)
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:67)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:189)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:132)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:58)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:775)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:748)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:753)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:298)
+	at com.sun.proxy.$Proxy56.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:508)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:542)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:504)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:489)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 26 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'logs.log' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5104)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy64.executeUpdate(Unknown Source)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204)
+	... 70 common frames omitted
+
+2017-10-25 04:13:15.750  INFO 21119 --- [main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:13:09 CEST 2017]; root of context hierarchy
+2017-10-25 04:13:15.751  INFO 21119 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:13:15.751  INFO 21119 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:17:05.109  INFO 22055 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 22055 (started by kuba in /var/www/log_parser)
+2017-10-25 04:17:05.111  INFO 22055 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 04:17:05.148  INFO 22055 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 04:17:05 CEST 2017]; root of context hierarchy
+2017-10-25 04:17:06.945  INFO 22055 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:17:06.973  INFO 22055 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:17:07.044  INFO 22055 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:17:07.045  INFO 22055 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:17:07.046  INFO 22055 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:17:07.094  INFO 22055 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:17:07.197  INFO 22055 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:17:07.449  WARN 22055 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:17:07.764  INFO 22055 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:17:08.316  INFO 22055 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.698 seconds (JVM running for 4.694)
+2017-10-25 04:17:08.354  INFO 22055 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4bdeaabb: startup date [Wed Oct 25 04:17:05 CEST 2017]; root of context hierarchy
+2017-10-25 04:17:08.357  INFO 22055 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:17:16.594  INFO 22095 --- [main] n.j.log_parser.LogParserApplication      : Starting LogParserApplication v0.0.1-SNAPSHOT on ProBook with PID 22095 (/var/www/log_parser/target/log_parser-0.0.1-SNAPSHOT.jar started by kuba in /var/www/log_parser)
+2017-10-25 04:17:16.597  INFO 22095 --- [main] n.j.log_parser.LogParserApplication      : No active profile set, falling back to default profiles: default
+2017-10-25 04:17:16.678  INFO 22095 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:17:16 CEST 2017]; root of context hierarchy
+2017-10-25 04:17:18.639  INFO 22095 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:17:18.661  INFO 22095 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:17:18.770  INFO 22095 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:17:18.771  INFO 22095 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:17:18.773  INFO 22095 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:17:18.839  INFO 22095 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:17:19.160  INFO 22095 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:17:19.527  WARN 22095 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:17:19.987  INFO 22095 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:17:20.725  INFO 22095 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-10-25 04:18:13.927  WARN 22095 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2017-10-25 04:18:13.927 ERROR 22095 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'logs.log' doesn't exist
+2017-10-25 04:18:13.935  INFO 22095 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-25 04:18:13.941 ERROR 22095 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:726)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:713)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at net.jakubpas.log_parser.LogParserApplication.main(LogParserApplication.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:261)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:488)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy59.save(Unknown Source)
+	at saveLogs(LogService.java:30)
+	at net.jakubpas.log_parser.LogParserApplication.run(LogParserApplication.java:22)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:723)
+	... 14 common frames omitted
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:207)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2855)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3426)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:619)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:273)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:254)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:299)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:272)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:178)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:109)
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:67)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:189)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:132)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:58)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:775)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:748)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:753)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:298)
+	at com.sun.proxy.$Proxy56.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:508)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:542)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:504)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:489)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 26 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'logs.log' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5104)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy64.executeUpdate(Unknown Source)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204)
+	... 70 common frames omitted
+
+2017-10-25 04:18:13.943  INFO 22095 --- [main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1edf1c96: startup date [Wed Oct 25 04:17:16 CEST 2017]; root of context hierarchy
+2017-10-25 04:18:13.944  INFO 22095 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-10-25 04:18:13.944  INFO 22095 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:21:04.315  INFO 22318 --- [main] gServiceRepositoryParserApplicationTests : Starting LogServiceRepositoryParserApplicationTests on ProBook with PID 22318 (started by kuba in /var/www/log_parser)
+2017-10-25 04:21:04.317  INFO 22318 --- [main] gServiceRepositoryParserApplicationTests : No active profile set, falling back to default profiles: default
+2017-10-25 04:21:04.385  INFO 22318 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4f32a3ad: startup date [Wed Oct 25 04:21:04 CEST 2017]; root of context hierarchy
+2017-10-25 04:21:06.222  INFO 22318 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:21:06.243  INFO 22318 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 04:21:06.324  INFO 22318 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 04:21:06.325  INFO 22318 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 04:21:06.327  INFO 22318 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 04:21:06.382  INFO 22318 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 04:21:06.495  INFO 22318 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 04:21:06.719  WARN 22318 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : create;.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-10-25 04:21:07.020  INFO 22318 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-25 04:21:07.599  INFO 22318 --- [main] gServiceRepositoryParserApplicationTests : Started LogServiceRepositoryParserApplicationTests in 3.772 seconds (JVM running for 4.715)
+2017-10-25 04:21:07.676  INFO 22318 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4f32a3ad: startup date [Wed Oct 25 04:21:04 CEST 2017]; root of context hierarchy
+2017-10-25 04:21:07.682  INFO 22318 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
