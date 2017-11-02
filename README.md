@@ -129,7 +129,3 @@ Deliverables
  	
 I did not provided validation and unit tests but I am happy to 
 add them if you like. The solution was tested on Ubuntu 14.04 and MacOS Sierra 
-
-Cheers
-
-Jakub
